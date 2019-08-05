@@ -41,10 +41,10 @@ Serve your documentation files
 urlpatterns += static('/docs/', document_root='docs')
 ```
 
-Add `SWAGGER_UI_INDEX_FILENAME` setting to your `settings.py`
+Add `SWAGGER_YAML_FILENAME` setting to your `settings.py`
 
 ```
-SWAGGER_UI_INDEX_FILENAME = 'docs/index.yml'
+SWAGGER_YAML_FILENAME = 'docs/index.yml'
 ```
 
 Add the `SwaggerUIView` to your urls
