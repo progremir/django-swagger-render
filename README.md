@@ -44,7 +44,7 @@ urlpatterns += static('/docs/', document_root='docs')
 Add `SWAGGER_YAML_FILENAME` setting to your `settings.py`
 
 ```
-SWAGGER_YAML_FILENAME = 'docs/index.yml'
+SWAGGER_YAML_FILENAME = '/docs/index.yml'
 ```
 
 Add the `SwaggerUIView` to your urls
