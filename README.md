@@ -10,20 +10,25 @@
 ### Installation
 
 Install using pip
+
 ```
 pip install django-swagger-render
 ```
 
 Add 'swagger_render' to your INSTALLED_APPS setting.
 
+```
 INSTALLED_APPS = [
     ...
     'swagger_render',
 ]
+```
 
 Create the folder where you will store your documentation
 
-`mkdir docs`
+```
+mkdir docs
+```
 
 Create the `index.yml` file with some `OPENAPI` or `Swagger` specifications
 
