@@ -1,4 +1,0 @@
-include README.md
-include LICENSE
-recursive-include swagger_render/static *
-recursive-include swagger_render/templates *
