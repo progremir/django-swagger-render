@@ -1,10 +1,8 @@
 language: python
 python:
 - 3.8
-before_install:
-- pip install poetry==1.0.9
 install:
-- poetry install
+- pip install poetry==1.0.9
 script: skip
 before_deploy:
 - poetry config repositories.testpypi https://test.pypi.org/legacy/
