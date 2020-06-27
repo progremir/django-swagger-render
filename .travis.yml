@@ -5,7 +5,7 @@ env:
   global:
     secure: vsaDxnRQZF8BqwEL6NWLLjGWz3+uuDN9XPty5hZrRJfneCBE1tzLk5ZLS3qbcE+zrWrh6Ruthm5IQpUye6RAhiwmyddxs4srVGU1BUm6XXIO+228KCO1Fs26IZv0y2Vl+CAo/2apqPCcyfSMn18oWhV6XTUp3K7CIpzOJfuWJgqBcQ8y9enlySKcLNTsRJ+Uy5pvqutkZn4FmTf6e5oRcAhd8tBMB+wAA0xdQVPDXyy4cc9G+MwMzRxFhePc25WiCp+Z04eU4CWEDK9tTWraDgOsDO8/g2CYIItrou7R/XmfOa/U1EIsuDUAyY3Uy+JuuLpjKKY/WpRraDUKWd2J2GJ5Tm1fYosqn+IFOB2Ssqx0TQUHHaHvn+xGRJ/E/uk3a3HdC5qNFH8rCVZ/o0ynrZA8OMacBs8no+2ADPKWNGo2C/aaXoaLddxRtrlxxcsUFjkBWzs3F0LI1PjCOGAiHHRnIs52esdMd1QM0eONZxbnXex1+0clrK/sj+1VXOg4A1yKZo65HK1qlttKc9R94PbH0cr/su8wCjzUYChhdYsjJJpICa8Rw3e9lOvC2FTBqXCTBsf8a06RgXARFS5s3OroRAWFyVc4EOlDl3bi2osxE63iYx/CLp7kXWep0nWSx+WMeto6FLq4jEUa1HPFnww8iM6nRrtYfsFmkQ+xNf8=
 before_install:
-- pip install poetry
+- pip install poetry==1.0.9
 install:
 - poetry install
 script: skip
