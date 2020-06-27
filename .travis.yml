@@ -11,7 +11,7 @@ install:
 script: skip
 before_deploy:
 - poetry config repositories.testpypi https://test.pypi.org/legacy/
-- poetry poetry config pypi-token.testpypi $PYPI_TOKEN
+- poetry config pypi-token.testpypi $PYPI_TOKEN
 - poetry build
 deploy:
   provider: script
