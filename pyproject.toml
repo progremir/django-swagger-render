@@ -4,6 +4,9 @@ version = "0.1.1"
 description = "Swagger documentation in Django"
 authors = ["Emir Amanbekov <amanbekoff@gmail.com>"]
 license = "MIT"
+packages = [
+    { include = "swagger_render" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.5"
