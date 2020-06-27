@@ -7,9 +7,8 @@ script: skip
 before_deploy:
 - poetry config repositories.testpypi https://test.pypi.org/legacy/
 - poetry config pypi-token.testpypi $PYPI_TOKEN
-- poetry build
 deploy:
   provider: script
-  script: poetry publish -r testpypi
+  script: poetry publish --build -r testpypi
 #  on:
 #    tags: true
